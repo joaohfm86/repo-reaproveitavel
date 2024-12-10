@@ -14,3 +14,5 @@ jobs:
     CD:
         needs: [CI]
         uses: joaohfm86/repo-reaproveitavel/.github/workflows/cd.yml@main
+        with:
+          ambiente: producao

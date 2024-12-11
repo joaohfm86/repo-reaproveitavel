@@ -26,5 +26,5 @@ jobs:
         uses: joaohfm86/repo-reaproveitavel/.github/workflows/cd.yml@main
         #with:
           #ambiente: ${{ inputs.ambiente }}
-        secrets:
-          ambiente: ${{ secrets.AMBIENTE_ENTREGA }}
+        secrets: inherit
+          #ambiente: ${{ secrets.AMBIENTE_ENTREGA }}

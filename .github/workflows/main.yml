@@ -25,7 +25,7 @@ jobs:
         needs: [CI]
         #uses: joaohfm86/repo-reaproveitavel/.github/workflows/cd.yml@main
         uses: joaohfm86/repo-deploy/.github/workflows/deploy.yml@main
-        #with:
-          #ambiente: ${{ inputs.ambiente }}
-        secrets: inherit
+        with:
+          ambiente: desenvolvimento
+        #secrets: inherit
           #ambiente: ${{ secrets.AMBIENTE_ENTREGA }}
